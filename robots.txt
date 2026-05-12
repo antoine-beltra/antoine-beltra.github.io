@@ -1,0 +1,6 @@
+# Permet à tous les moteurs de recherche d'accéder au site
+User-agent: *
+Allow: /
+
+# Indique où se trouve le sitemap
+Sitemap: https://antoine-beltra.github.io/sitemap.xml
