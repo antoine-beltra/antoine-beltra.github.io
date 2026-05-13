@@ -9,4 +9,4 @@ Antoine Beltra, retired sailor ⚓
 
 👤 [Facebook](https://www.facebook.com/profile.php?id=61575349567816)
 
-🔗 [Site personnel](https://antoine-beltra.github.io/)
+🔗 [https://antoine-beltra.github.io/](https://antoine-beltra.github.io/)
