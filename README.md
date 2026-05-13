@@ -1,6 +1,3 @@
-
-# Contact Antoine Beltra
-
 ⚓ Antoine Beltra retired sailor
 
 📬 [Là-bas si j'y suis](mailto:50b225trz@mozmail.com)
