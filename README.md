@@ -8,3 +8,5 @@ Antoine Beltra, retired sailor ⚓
 📆 Fridays after 12:00 UTC
 
 👤 [Facebook](https://www.facebook.com/profile.php?id=61575349567816)
+
+🔗 [Site personnel](https://antoine-beltra.github.io/)
