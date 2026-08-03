@@ -1,4 +1,4 @@
-Antoine ⚙️⚓🔧 Beltra 
+Antoine Beltra 
 
 retired sailor
 
