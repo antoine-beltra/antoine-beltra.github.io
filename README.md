@@ -2,8 +2,6 @@ Antoine Beltra
 
 retired sailor
 
-Email : [Là-bas si j'y suis](mailto:50b225trz@mozmail.com) &nbsp;&nbsp; 👤 [Facebook](https://www.facebook.com/profile.php?id=61575349567816)
+Email : [Là-bas si j'y suis](mailto:50b225trz@mozmail.com)
 
 link : [https://antoine-beltra.github.io/](https://antoine-beltra.github.io/)
-
-
