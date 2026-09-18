@@ -52,6 +52,26 @@
         .mail-icon {
             margin-right: 5px;
         }
+        /* Vignettes photos */
+        .photos {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 25px;
+        }
+        .photos img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 8px;
+            opacity: 0.85;
+            transition: opacity 0.2s, transform 0.2s;
+            cursor: pointer;
+        }
+        .photos img:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -60,6 +80,12 @@
         <p>retired sailor</p>
         <p><a href="mailto:50b225trz@mozmail.com" class="link-mail"><i class="fas fa-envelope mail-icon"></i>Là-bas si j'y suis</a></p>
         <p><a href="https://wa.me/19179671980" target="_blank" rel="noopener noreferrer" class="link-whatsapp"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a></p>
+
+        <div class="photos">
+            <a href="photo1.jpg" target="_blank"><img src="photo1.jpg" alt="Photo 1"></a>
+            <a href="photo2.jpg" target="_blank"><img src="photo2.jpg" alt="Photo 2"></a>
+            <a href="photo3.jpg" target="_blank"><img src="photo3.jpg" alt="Photo 3"></a>
+        </div>
     </div>
     <script type="application/ld+json">
 {
