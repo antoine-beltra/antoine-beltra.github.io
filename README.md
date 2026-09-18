@@ -7,19 +7,13 @@
   <br>
 
   <a href="mailto:50b225trz@mozmail.com">
-    <img src="https://img.shields.io/badge/Email-Là--bas_si_j'y_suis-FFB300?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-FFB300?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email">
   </a>
-
-  <br><br>
-
   <a href="https://wa.me/19179671980">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
-
-  <br><br>
-
   <a href="https://antoine-beltra.github.io/">
-    <img src="https://img.shields.io/badge/📸_Check_My_Photos_🎉-FF69B4?style=for-the-badge&logo=unsplash&logoColor=white" alt="Check My Photos">
+    <img src="https://img.shields.io/badge/Photos-0077B6?style=for-the-badge&logo=unsplash&logoColor=white" alt="Photos">
   </a>
 
 </div>
