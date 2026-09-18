@@ -21,11 +21,7 @@
             align-items: center;
         }
         a {
-            color: #3b82f6;
             text-decoration: underline;
-        }
-        a:hover {
-            color: #90caf9;
         }
         .container {
             padding: 20px;
@@ -36,12 +32,24 @@
         p {
             margin: 15px 0;
         }
-        .whatsapp-icon {
+        /* Email link : Gmail red */
+        .link-mail {
+            color: #EA4335;
+        }
+        .link-mail:hover {
+            color: #ff7b70;
+        }
+        /* WhatsApp link : WhatsApp green */
+        .link-whatsapp {
             color: #25D366;
+        }
+        .link-whatsapp:hover {
+            color: #5ef29a;
+        }
+        .whatsapp-icon {
             margin-right: 5px;
         }
         .mail-icon {
-            color: #EA4335;
             margin-right: 5px;
         }
     </style>
@@ -50,8 +58,8 @@
     <div class="container">
         <h1>Antoine Beltra</h1>
         <p>retired sailor</p>
-        <p><a href="mailto:50b225trz@mozmail.com"><i class="fas fa-envelope mail-icon"></i>Là-bas si j'y suis</a></p>
-        <p><a href="https://wa.me/19179671980" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a></p>
+        <p><a href="mailto:50b225trz@mozmail.com" class="link-mail"><i class="fas fa-envelope mail-icon"></i>Là-bas si j'y suis</a></p>
+        <p><a href="https://wa.me/19179671980" target="_blank" rel="noopener noreferrer" class="link-whatsapp"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a></p>
     </div>
     <script type="application/ld+json">
 {
