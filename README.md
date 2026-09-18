@@ -4,25 +4,18 @@
 
   <p><strong>Retired sailor</strong></p>
 
-  <!-- Lien Site Web : Icône Globe + Couleur Bleue (#00BFFF) -->
-  <p>
-    <a href="https://antoine-beltra.github.io/" style="text-decoration: none;">
-      <span style="color: #00BFFF;">🌐 antoine-beltra.github.io</span>
-    </a>
-  </p>
+  <br>
 
-  <!-- Lien Email : Icône + Couleur Dorée (#FFB300) -->
-  <p>
-    <a href="mailto:50b225trz@mozmail.com" style="text-decoration: none;">
-      <span style="color: #FFB300;">✉️ Là-bas si j'y suis</span>
-    </a>
-  </p>
+  <a href="mailto:50b225trz@mozmail.com">
+    <img src="https://img.shields.io/badge/Email-Là--bas_si_j'y_suis-FFB300?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email">
+  </a>
+  <br><br>
+  <a href="https://wa.me/19179671980">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
 
-  <!-- Lien WhatsApp : Icône + Couleur Verte (#25D366) -->
-  <p>
-    <a href="https://wa.me/19179671980" style="text-decoration: none;">
-      <span style="color: #25D366;">💬 WhatsApp</span>
-    </a>
-  </p>
+  <br><br><br>
+
+  <p>📸 <em>Retrouvez mes photos sur le site</em> 📸</p>
 
 </div>
