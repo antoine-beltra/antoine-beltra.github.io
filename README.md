@@ -1,16 +1,21 @@
 <div align="center">
 
   <h3 style="margin: 0;">
-    Antoine Beltra <span style="font-weight: normal;">retired sailor</span>
+    Antoine Beltra
   </h3>
 
-  <p style="margin-top: 6px;">
+  <p style="margin: 4px 0 0 0; font-weight: normal;">
+    retired sailor
+  </p>
+
+  <p style="margin-top: 10px;">
     <a href="mailto:50b225trz@mozmail.com" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Email-FFB300?style=flat-square&logo=maildotru&logoColor=white" alt="Email">
     </a>
     <a href="https://wa.me/19179671980" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp">
     </a>
+    <br>
     <a href="https://t.me/+19179671980" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Telegram-229ED9?style=flat-square&logo=telegram&logoColor=white" alt="Telegram">
     </a>
