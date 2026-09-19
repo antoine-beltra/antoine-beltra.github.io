@@ -1,27 +1,31 @@
 <div align="center">
 
-  <h3 style="margin: 0;">
-    Antoine Beltra
-  </h3>
+  <br>
 
-  <p style="margin: 4px 0 0 0; font-weight: normal;">
-    retired sailor
-  </p>
+  <img src="https://img.shields.io/badge/Antoine_Beltra-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a&logoColor=ffa31a" alt="Antoine Beltra">
 
-  <p style="margin-top: 10px;">
-    <a href="mailto:50b225trz@mozmail.com" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Email-FFB300?style=flat-square&logo=maildotru&logoColor=white" alt="Email">
-    </a>
-    <a href="https://wa.me/19179671980" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp">
-    </a>
-    <br>
-    <a href="https://t.me/+19179671980" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Telegram-229ED9?style=flat-square&logo=telegram&logoColor=white" alt="Telegram">
-    </a>
-    <a href="https://antoine-beltra.github.io/" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Photos-0077B6?style=flat-square&logo=unsplash&logoColor=white" alt="Photos">
-    </a>
-  </p>
+  <br>
+
+  <img src="https://img.shields.io/badge/retired_sailor-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a" alt="retired sailor">
+
+  <br><br>
+
+  <a href="mailto:50b225trz@mozmail.com" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/✉_Là--bas_si_j'y_suis-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a&logo=maildotru&logoColor=ffa31a" alt="Email">
+  </a>
+
+  <br>
+
+  <a href="https://wa.me/19179671980" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&labelColor=000000&color=25D366&logo=whatsapp&logoColor=25D366" alt="WhatsApp">
+  </a>
+
+  <br>
+
+  <a href="https://t.me/beltrantoine" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&labelColor=000000&color=229ED9&logo=telegram&logoColor=229ED9" alt="Telegram">
+  </a>
+
+  <br><br>
 
 </div>
