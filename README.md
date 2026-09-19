@@ -18,7 +18,7 @@
 
   <p>
     <a href="https://antoine-beltra.github.io/">
-      <img src="https://img.shields.io/badge/Voir_la_carte_de_visite-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site">
+      <img src="https://img.shields.io/badge/See_the_visit_card-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Visit card">
     </a>
   </p>
 
