@@ -1,31 +1,25 @@
 <div align="center">
 
-  <br>
+  <h1>Antoine Beltra</h1>
 
-  <img src="https://img.shields.io/badge/Antoine_Beltra-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a&logoColor=ffa31a" alt="Antoine Beltra">
+  <p><em>retired sailor</em></p>
 
-  <br>
+  <p>
+    <a href="mailto:50b225trz@mozmail.com">
+      <img src="https://img.shields.io/badge/Email-ffa31a?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email">
+    </a>
+    <a href="https://wa.me/19179671980">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+    </a>
+    <a href="https://t.me/beltrantoine">
+      <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+    </a>
+  </p>
 
-  <img src="https://img.shields.io/badge/retired_sailor-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a" alt="retired sailor">
-
-  <br><br>
-
-  <a href="mailto:50b225trz@mozmail.com" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/✉_Là--bas_si_j'y_suis-ffa31a?style=for-the-badge&labelColor=000000&color=ffa31a&logo=maildotru&logoColor=ffa31a" alt="Email">
-  </a>
-
-  <br>
-
-  <a href="https://wa.me/19179671980" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&labelColor=000000&color=25D366&logo=whatsapp&logoColor=25D366" alt="WhatsApp">
-  </a>
-
-  <br>
-
-  <a href="https://t.me/beltrantoine" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&labelColor=000000&color=229ED9&logo=telegram&logoColor=229ED9" alt="Telegram">
-  </a>
-
-  <br><br>
+  <p>
+    <a href="https://antoine-beltra.github.io/">
+      <img src="https://img.shields.io/badge/Voir_la_carte_de_visite-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site">
+    </a>
+  </p>
 
 </div>
