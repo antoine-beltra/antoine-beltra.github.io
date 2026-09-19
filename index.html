@@ -29,7 +29,6 @@
         p {
             margin: 15px 0;
         }
-        /* Email link : orange */
         .link-mail {
             color: #ffa31a;
         }
@@ -48,14 +47,27 @@
         .mail-icon {
             margin-right: 5px;
         }
+        /* Telegram : bouton rond cliquable, icône seule */
         .link-telegram {
-            color: #229ED9;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #229ED9;
+            color: #ffffff;
+            text-decoration: none;
+            margin-top: 15px;
+            font-size: 24px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
         .link-telegram:hover {
-            color: #5ec8f2;
+            background-color: #1c85b8;
+            transform: scale(1.1);
         }
         .telegram-icon {
-            margin-right: 5px;
+            margin-right: 0;
         }
         .photos {
             display: flex;
@@ -84,7 +96,11 @@
         <p translate="no" style="color: #ffa31a;">retired sailor</p>
         <p><a href="mailto:50b225trz@mozmail.com" class="link-mail"><i class="fas fa-envelope mail-icon"></i>Là-bas si j'y suis</a></p>
         <p><a href="https://wa.me/19179671980" translate="no" target="_blank" rel="noopener noreferrer" class="link-whatsapp"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a></p>
-        <p><a href="https://t.me/+19179671980" translate="no" target="_blank" rel="noopener noreferrer" class="link-telegram"><i class="fab fa-telegram telegram-icon"></i>Telegram</a></p>
+        <p>
+            <a href="https://t.me/+19179671980" translate="no" target="_blank" rel="noopener noreferrer" class="link-telegram" aria-label="Telegram">
+                <i class="fab fa-telegram telegram-icon"></i>
+            </a>
+        </p>
 
         <div class="photos">
             <a href="photo1.jpg" target="_blank"><img src="photo1.jpg" alt="Photo 1"></a>
