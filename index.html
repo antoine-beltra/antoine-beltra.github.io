@@ -68,6 +68,18 @@
         .telegram-icon {
             margin-right: 0;
         }
+        /* Ligne des 3 boutons côte à côte */
+        .actions {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .actions a {
+            margin: 0;
+        }
         .photos {
             display: flex;
             justify-content: center;
@@ -93,13 +105,15 @@
     <div class="container">
         <h1 translate="no" style="color: #ffa31a; margin-bottom: 10px;">Antoine Beltra</h1>
         <p translate="no" style="color: #ffa31a;">retired sailor</p>
-        <p><a href="mailto:50b225trz@mozmail.com" class="link-mail"><i class="fas fa-envelope mail-icon"></i>Là-bas si j'y suis</a></p>
-        <p><a href="https://wa.me/19179671980" translate="no" target="_blank" rel="noopener noreferrer" class="link-whatsapp"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a></p>
-        <p>
+        <p translate="no" style="color: #ffa31a;">Là-bas si j'y suis</p>
+
+        <div class="actions">
+            <a href="mailto:50b225trz@mozmail.com" class="link-mail"><i class="fas fa-envelope mail-icon"></i>Mail</a>
+            <a href="https://wa.me/19179671980" translate="no" target="_blank" rel="noopener noreferrer" class="link-whatsapp"><i class="fab fa-whatsapp whatsapp-icon"></i>WhatsApp</a>
             <a href="https://t.me/beltrantoine" translate="no" target="_blank" rel="noopener noreferrer" class="link-telegram" aria-label="Telegram">
                 <i class="fab fa-telegram telegram-icon"></i>
             </a>
-        </p>
+        </div>
 
         <div class="photos">
             <a href="photo1.jpg" target="_blank"><img src="photo1.jpg" alt="Photo 1"></a>
