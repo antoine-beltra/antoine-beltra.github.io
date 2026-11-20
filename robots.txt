@@ -1,0 +1,6 @@
+# Allow all search engines to access the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://antoine-beltra.github.io/sitemap.xml

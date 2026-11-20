@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>OG Image - Antoine Beltra</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        @font-face {
+            font-family: "OpenDyslexic";
+            src: url("https://cdn.jsdelivr.net/gh/madjeek-web/open-dyslexic@main/OpenDyslexic-2025/opendyslexic-bold-webfont.woff2")
+                 format("woff2");
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background: #1a1a1a;
+            font-family: "OpenDyslexic", Arial, sans-serif;
+        }
+
+        .og-image {
+            width: 1200px;
+            height: 630px;
+            padding: 36px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+
+        .og-name {
+            margin-bottom: 12px;
+            color: #229ED9;
+            font-size: 68px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .og-job {
+            margin-bottom: 12px;
+            color: #229ED9;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .og-tagline {
+            margin-bottom: 22px;
+            color: #229ED9;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .og-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 38px;
+            margin-bottom: 26px;
+        }
+
+        .og-btn {
+            width: 76px;
+            height: 76px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 36px;
+            overflow: hidden;
+        }
+
+        .og-btn-mail,
+        .og-btn-telegram {
+            background: #229ED9;
+        }
+
+        .og-btn-whatsapp {
+            background: #25D366;
+        }
+
+        .og-btn-icon {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .og-message-bottle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .og-bottle-img {
+            display: block;
+            width: 105px;
+            height: 105px;
+            object-fit: contain;
+            margin-bottom: 8px;
+        }
+
+        .og-bottle-text {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+        }
+    </style>
+</head>
+<body>
+    <main class="og-image">
+        <div class="og-name">Antoine Beltra</div>
+        <div class="og-job">retired sailor</div>
+        <div class="og-tagline" translate="no">Là-bas si j'y suis</div>
+
+        <div class="og-icons" aria-hidden="true">
+            <div class="og-btn og-btn-mail">
+                <img src="seamensmail.png" alt="" class="og-btn-icon">
+            </div>
+            <div class="og-btn og-btn-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="og-btn og-btn-telegram">
+                <i class="fab fa-telegram"></i>
+            </div>
+        </div>
+
+        <div class="og-message-bottle">
+            <img src="bottle.png" alt="Message in a bottle" class="og-bottle-img">
+            <div class="og-bottle-text" translate="no">cave canem</div>
+        </div>
+    </main>
+</body>
+</html>
