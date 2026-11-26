@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="gGFF9U-gGOGUZ5x-rvVsN_Xonwxd5B4R_cYp0SXrgKI">
+    <title>Antoine Beltra - retired sailor</title>
+    <meta name="description" content="Digital business card of Antoine Beltra retired sailor">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://antoine-beltra.github.io/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Antoine Beltra - retired sailor">
+    <meta property="og:description" content="Digital business card of Antoine Beltra retired sailor">
+    <meta property="og:url" content="https://antoine-beltra.github.io/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://antoine-beltra.github.io/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Antoine Beltra - retired sailor">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Antoine Beltra - retired sailor">
+    <meta name="twitter:description" content="Digital business card of Antoine Beltra retired sailor">
+    <meta name="twitter:image" content="https://antoine-beltra.github.io/og-image.png">
+
+    <style>
+        @font-face {
+            font-family: 'OpenDyslexic';
+            src: url('https://cdn.jsdelivr.net/gh/madjeek-web/open-dyslexic@main/OpenDyslexic-2025/opendyslexic-regular-webfont.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'OpenDyslexic';
+            src: url('https://cdn.jsdelivr.net/gh/madjeek-web/open-dyslexic@main/OpenDyslexic-2025/opendyslexic-bold-webfont.woff2') format('woff2');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'OpenDyslexic', sans-serif;
+            letter-spacing: 0.03em;
+            line-height: 1.5;
+            margin: 0;
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: relative;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .job {
+            color: #808080;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-label {
+            color: #FFA31A;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+        }
+
+        .qr-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qr-icon svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        .copy-btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            flex: 0 0 48px;
+            background: transparent;
+            border: none;
+            border-radius: 10px;
+            color: #FFA31A;
+            cursor: pointer;
+            padding: 0;
+            touch-action: manipulation;
+        }
+
+        .copy-btn:hover,
+        .copy-btn:active {
+            background-color: #262626;
+        }
+
+        .copy-btn:focus-visible {
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
+
+        .copy-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .toast {
+            position: absolute;
+            bottom: calc(100% + 12px);
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: calc(100vw - 40px);
+            box-sizing: border-box;
+            background-color: #FFA31A;
+            color: black;
+            padding: 12px 18px;
+            border-radius: 16px;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            overflow-wrap: anywhere;
+            z-index: 10;
+        }
+
+        .toast.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .toast-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 8px;
+            flex-wrap: nowrap;
+        }
+
+        .toast-btn {
+            background: black;
+            color: #FFA31A;
+            border: none;
+            border-radius: 10px;
+            padding: 8px 12px;
+            font-family: inherit;
+            font-weight: bold;
+            font-size: 0.85em;
+            cursor: pointer;
+            touch-action: manipulation;
+            white-space: nowrap;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .toast-btn:hover,
+        .toast-btn:active {
+            background: #262626;
+        }
+
+        .toast-qr {
+            margin-top: 10px;
+        }
+
+        .toast-qr img {
+            width: 180px;
+            height: 180px;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+        <h1>Antoine Beltra</h1>
+        <p class="job">retired sailor</p>
+
+        <div class="contact">
+            <a class="contact-label" id="email" href="#" title="Send email">MAIL</a>
+            <button class="copy-btn" type="button" onclick="copyEmail()" title="Copy email" aria-label="Copy email address">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+            </button>
+
+            <a class="contact-label" id="sms" href="sms:+19179671980" title="Send SMS">SMS</a>
+            <button class="copy-btn" type="button" onclick="copyPhone()" title="Copy number" aria-label="Copy phone number">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+            </button>
+
+            <a class="contact-label qr-icon" id="handle" href="#" title="Scan to contact" aria-label="QR contact options">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor">
+                    <path d="M3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm13-2h3v3h-3v-3zm-5 0h3v3h-3v-3zm2 5h3v3h-3v-3zm5-5h3v3h-3v-3zm0 5h3v3h-3v-3zm-5-5h3v3h-3v-3z"/>
+                </svg>
+            </a>
+            <button class="copy-btn" type="button" onclick="copyHandle()" title="Copy handle" aria-label="Copy handle">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+            </button>
+        </div>
+    </main>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Antoine Beltra",
+        "jobTitle": "retired sailor",
+        "url": "https://antoine-beltra.github.io/",
+        "sameAs": ["https://github.com/antoine-beltra"]
+    }
+    </script>
+
+    <script>
+        const email = atob("NTBiMjI1dHJ6QG1vem1haWwuY29t");
+        const phone = atob("KzEgOTE3IDk2NyAxOTgw");
+        const handle = "@beltrantoine67";
+
+        const deepLinks = {
+            signal: "https://signal.me/#p/+19179671980",
+            telegram: "https://t.me/beltrantoine67",
+            whatsapp: "https://wa.me/19179671980"
+        };
+
+        const qrLabels = {
+            signal: "beltrantoine.67",
+            telegram: "@beltrantoine67",
+            whatsapp: "@beltrantoine67"
+        };
+
+        document.getElementById('email').href = 'mailto:' + email;
+        document.getElementById('handle').addEventListener('click', showAppSelector);
+
+        let toastTimer;
+
+        function showToast(html, autoHide = true) {
+            const toast = document.getElementById('toast');
+            toast.innerHTML = html;
+            toast.classList.add('show');
+
+            clearTimeout(toastTimer);
+            if (autoHide) {
+                toastTimer = setTimeout(hideToast, 2000);
+            }
+        }
+
+        function hideToast() {
+            document.getElementById('toast').classList.remove('show');
+        }
+
+        function showAppSelector() {
+            const html = `
+                <span>Choose an app:</span>
+                <div class="toast-buttons">
+                    <button class="toast-btn" translate="no" onclick="showQR('signal')">Signal</button>
+                    <button class="toast-btn" translate="no" onclick="showQR('telegram')">Telegram</button>
+                    <button class="toast-btn" translate="no" onclick="showQR('whatsapp')">WhatsApp</button>
+                </div>`;
+            showToast(html, false);
+        }
+
+        function showQR(app) {
+            const label = app.charAt(0).toUpperCase() + app.slice(1);
+            const qrLabel = qrLabels[app];
+            const html = `
+                <span translate="no">${qrLabel}</span>
+                <div class="toast-qr">
+                    <img src="${app}.png" alt="${label} QR code">
+                </div>
+                <div class="toast-buttons">
+                    <a class="toast-btn" translate="no" href="${deepLinks[app]}" target="_blank">Open ${label}</a>
+                    <button class="toast-btn" onclick="hideToast()">close</button>
+                </div>`;
+            showToast(html, false);
+        }
+
+        async function copyText(text, successMessage) {
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast(successMessage);
+            } catch (error) {
+                showToast("Copying failed. Please try again.");
+            }
+        }
+
+        function copyEmail() {
+            copyText(email, "Email copied!");
+        }
+
+        function copyPhone() {
+            copyText(phone, "Number copied!");
+        }
+
+        function copyHandle() {
+            copyText(handle, "Handle copied!");
+        }
+    </script>
+</body>
+</html>   
